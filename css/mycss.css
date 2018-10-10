@@ -1,0 +1,286 @@
+body
+{
+	
+	background-color: #eee;
+}
+
+.main
+{
+	overflow:hidden;
+	margin:50px 150px;
+}
+.container nav
+{
+	background:#2BA6CB;
+	height:40px;
+	border-radius:8px;
+
+}
+.container li
+{
+	float:left;
+	padding:20px;
+	margin-top:-5px;
+
+}
+.container nav ul
+{
+	margin:0 auto;
+}
+.container ul
+{
+	margin-left:35px;
+
+}
+li:hover{
+    background: #2795B6;
+    color: #fff;
+padding-bottom:15px;
+height:10px;
+}
+a:active
+{
+	  background: #2795B6;
+    color: #fff;
+    overflow:hidden;
+
+}
+
+nav a
+{
+	color:white;
+	text-decoration:none;
+}
+.content
+{
+	background-color:white;
+	height:0 auto;
+	margin-top:20px;
+}
+.row
+{
+	width:100%;
+
+
+}
+.heading
+{
+	width:70%;
+
+
+}
+.heading1
+{
+	width:70%;
+
+
+}
+.heading h1
+{
+	margin:20px;
+	font-size: 25px;
+	padding-top:20px;
+	font-weight:bold;
+}
+.heading span
+{
+	margin:20px;
+}
+.heading p
+{
+	margin:20px;
+	line-height:30px;
+
+}
+.heading1 h1
+{
+	margin:20px;
+	font-size: 25px;
+	padding-top:20px;
+	font-weight:bold;
+}
+.heading1 span
+{
+	margin:20px;
+}
+.heading1 p
+{
+	margin:20px;
+	line-height:30px;
+
+}
+.Navigation
+{
+	width:30%;
+	float:right;
+	margin-top:-290px;
+	margin-right:-50px;
+}
+.Navigation1
+{
+	width:16%;
+	height:240px;
+	float:right;
+	margin-top:-330px;
+	margin-right:40px;
+	background-color:#eee;
+	padding:30px;
+	padding-top:20px;
+	border:1px solid lightgray;
+}
+.Navigation h1
+{
+	font-size:25px;
+	font-weight:bold;
+
+}
+.Navigation1 h1
+{
+	font-size:25px;
+	font-weight:bold;
+	padding:20px;
+	margin-left:-15px;
+}
+
+.Navigation1 p
+{
+	line-height:30px;
+}
+.Navigation ul
+{
+	line-height:30px;
+}
+.footer
+{
+	background:#2BA6CB;
+	height:40px;
+	border-radius:8px;
+	margin:5px 140px;
+}
+.footer p
+{
+	color:white;
+	text-align:center;
+}
+
+
+
+@media only screen and (max-width:768px)
+{  
+	.main
+	{
+		margin:0px 40px;
+		height:0 auto;
+	}
+	.container nav
+	{
+		height:190px;
+		border-radius:0px 0px 15px 15px;
+         
+
+	}
+	.content
+	{
+	 height:1150px;
+	}
+ .container li
+	{
+		width:50%;
+		display:block;
+		margin-left:250px;
+	}
+	.heading 
+	{
+		width:100%;
+	}
+	.heading1
+	{
+		width:100%;
+		float:left;
+		margin-top:-530px;
+
+	}
+	.Navigation
+	{
+		margin-top:390px;
+		float:left;
+		margin-left:30px;
+	}
+	.Navigation1
+	{
+		width:80%;
+		height:140px;
+	    float:left;
+	    margin-left:30px;
+	    margin-top:30px;
+	    border:3px solid lightgray;
+	}
+	.footer
+	{
+		margin: 10px 40px;
+	}
+}
+
+
+
+@media only screen and (max-width:400px)
+{
+	.main
+	{
+         margin:0px 13px;
+         height:1800px;
+	}
+	.container nav
+	{
+		border-radius:2px;
+	}
+	.container nav ul
+	{
+		margin-left:-140px;
+	}
+	.heading
+	{
+		width:300px;
+	}
+	
+	.heading p
+	{
+		font-size:16px;
+	}
+	.heading span
+	{
+		font-size:12px;
+	}
+
+	.heading1 span
+	{
+		font-size:12px;
+		
+	}
+	.heading1 h1
+	{
+		width:270px;
+	}
+	.heading1 p
+	{
+		width:270px;
+	}
+	.content
+	{
+       height:2000px;
+	}
+.Navigatio
+	{
+		margin-top:30px;
+		
+	}
+	.Navigation1
+	{
+		margin-top:130px;
+width:180px;
+height:210px;
+	}
+	.footer
+	{
+		margin-top:10px;
+}
